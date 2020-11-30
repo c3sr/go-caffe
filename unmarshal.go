@@ -6,7 +6,7 @@ import (
 	"github.com/Unknwon/com"
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"
-	caffeproto "github.com/rai-project/go-caffe/proto"
+	caffeproto "github.com/c3sr/go-caffe/proto"
 )
 
 func unmarshal(target proto.Message, protoFileName string) error {

@@ -61,7 +61,7 @@ RUN git clone --depth=1 --recursive --branch=$FRAMEWORK_VERSION https://github.c
 RUN echo "$CAFFE_DIST_DIR/lib" >> /etc/ld.so.conf.d/caffe.conf && ldconfig
 
 ########## GO BINDING INSTALLATION ###################
-ENV PKG github.com/rai-project/go-caffe
+ENV PKG github.com/c3sr/go-caffe
 WORKDIR $GOPATH/src/$PKG
 
 RUN git clone --depth=1 https://${PKG}.git . && \

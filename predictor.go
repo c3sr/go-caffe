@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"unsafe"
 
-	"github.com/rai-project/tracer"
-	"github.com/rai-project/nvidia-smi"
+	"github.com/c3sr/tracer"
+	"github.com/c3sr/nvidia-smi"
 	"github.com/Unknwon/com"
 	"github.com/pkg/errors"
-  "github.com/rai-project/dlframework/framework/options"
+  "github.com/c3sr/dlframework/framework/options"
 )
 
 const (

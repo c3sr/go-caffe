@@ -1,19 +1,16 @@
 # go-caffe
 
-[![Build Status](https://dev.azure.com/dakkak/rai/_apis/build/status/rai-project.go-caffe)](https://dev.azure.com/dakkak/rai/_build/latest?definitionId=9)
-[![Build Status](https://travis-ci.org/rai-project/go-caffe.svg?branch=master)](https://travis-ci.org/rai-project/go-caffe)[![Go Report Card](https://goreportcard.com/badge/github.com/rai-project/go-caffe)](https://goreportcard.com/report/github.com/rai-project/go-caffe)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-[![](https://images.microbadger.com/badges/version/carml/go-caffe:ppc64le-gpu-latest.svg)](https://microbadger.com/images/carml/go-caffe:ppc64le-gpu-latest> 'Get your own version badge on microbadger.com') [![](https://images.microbadger.com/badges/version/carml/go-caffe:ppc64le-cpu-latest.svg)](https://microbadger.com/images/carml/go-caffe:ppc64le-cpu-latest 'Get your own version badge on microbadger.com') [![](https://images.microbadger.com/badges/version/carml/go-caffe:amd64-cpu-latest.svg)](https://microbadger.com/images/carml/go-caffe:amd64-cpu-latest 'Get your own version badge on microbadger.com') [![](https://images.microbadger.com/badges/version/carml/go-caffe:amd64-gpu-latest.svg)](https://microbadger.com/images/carml/go-caffe:amd64-gpu-latest 'Get your own version badge on microbadger.com')
+[![Go Report Card](https://goreportcard.com/badge/github.com/c3sr/go-caffe)](https://goreportcard.com/report/github.com/c3sr/go-caffe)[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Go binding for Caffe C predict API.
-This is used by the [Caffe agent](https://github.com/rai-project/caffe) in [MLModelScope](mlmodelscope.org) to perform model inference in Go.
+This is used by the [Caffe agent](https://github.com/c3sr/caffe) in [MLModelScope](mlmodelscope.org) to perform model inference in Go.
 
 ## Installation
 
 Download and install go-caffe:
 
 ```
-go get -v github.com/rai-project/go-caffe
+go get -v github.com/c3sr/go-caffe
 ```
 
 The repo requires Caffe and other Go packages.
@@ -57,7 +54,7 @@ For example,
 You can install the dependency through `go get`.
 
 ```
-cd $GOPATH/src/github.com/rai-project/tensorflow
+cd $GOPATH/src/github.com/c3sr/tensorflow
 go get -u -v ./...
 ```
 

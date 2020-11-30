@@ -19,14 +19,14 @@ import (
 	"github.com/anthonynsimon/bild/imgio"
 	"github.com/anthonynsimon/bild/transform"
 	"github.com/k0kubun/pp"
-	"github.com/rai-project/config"
-	"github.com/rai-project/dlframework"
-	"github.com/rai-project/dlframework/framework/feature"
-	"github.com/rai-project/dlframework/framework/options"
-	"github.com/rai-project/downloadmanager"
-	"github.com/rai-project/go-caffe"
-	nvidiasmi "github.com/rai-project/nvidia-smi"
-	_ "github.com/rai-project/tracer/jaeger"
+	"github.com/c3sr/config"
+	"github.com/c3sr/dlframework"
+	"github.com/c3sr/dlframework/framework/feature"
+	"github.com/c3sr/dlframework/framework/options"
+	"github.com/c3sr/downloadmanager"
+	"github.com/c3sr/go-caffe"
+	nvidiasmi "github.com/c3sr/nvidia-smi"
+	_ "github.com/c3sr/tracer/jaeger"
 )
 
 var (
